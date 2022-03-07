@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul.a{list-style-type:circle;}
+        ul.b{list-style-type:square;}
+        ol.a{list-style-type:upper-roman;}
+        ol.b{list-style-type:lower-alpha;}
+    </style>
+</head>
+<body>
+<ul class="a">
+    <li>清华大学</li>
+    <li>北京大学</li>
+</ul>
+<ul class="b">
+    <li>清华大学</li>
+    <li>北京大学</li>
+</ul>
+<ol class="a">
+    <li>上海交通大学</li>
+    <li>广州大学</li>
+</ol>
+<ol class="b">
+    <li>上海交通大学</li>
+    <li>广州大学</li>
+</ol>
+</body>
+</html>
