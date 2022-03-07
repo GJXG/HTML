@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul.a{list-style-image:url('清华1.jpeg');}/*图像元素加入列表标记*/
+    </style>
+</head>
+<body>
+<ul class="a">
+    <li>清华大学</li>
+    <li>北京大学</li>
+</ul>
+</body>
+</html>
