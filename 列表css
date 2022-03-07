@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        ul.a{list-style-type:circle;}
-        ul.b{list-style-type:square;}
-        ol.a{list-style-type:upper-roman;}
-        ol.b{list-style-type:lower-alpha;}
+        ul.a{list-style-type:circle;}/* 空心圆*/
+        ul.b{list-style-type:square;}/*实心方块*/
+        ol.a {list-style-type:upper-roman;}、
+        ol.b {list-style-type:lower-alpha;/
     </style>
 </head>
 <body>
