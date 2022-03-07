@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table,th{ border:1px  solid blue;}
+        table{ border-collapse:collapse;}
+        table{width:200px;}
+        /*tr{height:100px}*/
+        table,tr.b{background-color:green;
+        color:white;}
+</style>
+</head>
+<body>
+<DIV align="center">
+<table border="2">
+    <tr  class="a"><td colspan="2" align="center"><h1>北京市大学</h1></td></tr>
+    <tr class="b">
+        <td align="center" class="b">清华大学</td>
+        <td align="center">北京大学</td>
+    </tr>
+    <tr>
+        <td>北京航天航空大学</td>
+        <td>北京邮电大学</td>
+    </tr>
+</table></DIV>
+</body>
+</html>
