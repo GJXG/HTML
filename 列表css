@@ -6,8 +6,8 @@
     <style>
         ul.a{list-style-type:circle;}/* 空心圆*/
         ul.b{list-style-type:square;}/*实心方块*/
-        ol.a {list-style-type:upper-roman;}、
-        ol.b {list-style-type:lower-alpha;/
+        ol.a {list-style-type:upper-roman;}/*罗马数字*/
+        ol.b {list-style-type:lower-alpha;/*英文*/
     </style>
 </head>
 <body>
