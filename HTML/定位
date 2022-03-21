@@ -1,0 +1,22 @@
+**static 定位**
+HTML 元素的默认值，即没有定位，遵循正常的文档流对象。
+静态定位的元素不会受到 top, bottom, left, right影响。
+`p{position: static;}`
+**fixed 定位**
+相对于浏览器窗口为固定位置
+`p{position:fixed;}`
+**relative 定位**
+相对定位元素的定位是相对其正常位置。
+`p{position:relative;}`
+**absolute 定位**
+绝对定位的元素的位置相对于最近的已定位父元素
+`p{position:absolute;}`
+**sticky 定位**
+黏性粘贴
+`div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: green;
+    border: 2px solid #4CAF50;
+}`
