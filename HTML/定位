@@ -1,22 +1,27 @@
-**static 定位**
-HTML 元素的默认值，即没有定位，遵循正常的文档流对象。
-静态定位的元素不会受到 top, bottom, left, right影响。
-`p{position: static;}`
-**fixed 定位**
-相对于浏览器窗口为固定位置
-`p{position:fixed;}`
-**relative 定位**
-相对定位元素的定位是相对其正常位置。
-`p{position:relative;}`
-**absolute 定位**
-绝对定位的元素的位置相对于最近的已定位父元素
-`p{position:absolute;}`
-**sticky 定位**
-黏性粘贴
-`div.sticky {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    background-color: green;
-    border: 2px solid #4CAF50;
-}`
+LinearLayout主要属性：
+
+Android：gravity：设置内部控件的显示位置。
+
+Android:layout_gravity：设置外部控件的位置。
+
+Android：orientation：设置内部控件的排列方向，常量horizontal（默认值）表示水平排列，vertical表示垂直排列。
+
+Android：layout_weight：设置内部控件在LinearLayout中所占的权重。（即所占空间的百分比）
+
+android:layout_height:组件的高度，match_parent表示与屏幕高度相同，wrap_content表示恰好包裹元素的高度
+
+android:layout_width：组件的宽度，match_parent表示与屏幕宽度相同，wrap_content表示恰好包裹元素的宽度
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <Button
+        android:id="@+id/button4"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Button" />
+            </LinearLayout>
